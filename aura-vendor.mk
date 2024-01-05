@@ -1148,6 +1148,7 @@ PRODUCT_PACKAGES += \
     libantradio \
     libplatformconfig \
     DaxUI \
+    RazerCamera \
     daxService \
     CneApp \
     IWlanService \

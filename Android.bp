@@ -56,6 +56,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "RazerCamera",
+	owner: "razer",
+	apk: "proprietary/system/priv-app/RazerCamera/RazerCamera.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "daxService",
 	owner: "razer",
 	apk: "proprietary/system/priv-app/daxService/daxService.apk",
